@@ -1,0 +1,6 @@
+#!/bin/sh
+# Dev helper: run usbeehive against the bundled sysfs fixture (a laptop charging
+# from a 100W USB-C PD charger at 45W) so the wattage UI can be exercised on a
+# machine without USB-C PD. Point the plugin's "usbeehive binary" setting here.
+here=$(dirname "$(readlink -f "$0")")
+exec "${USBEEHIVE:-usbeehive}" --sysfs-root "$here/fixtures/charging" "$@"

@@ -1,3 +1,4 @@
+--!nonstrict
 -- Bar widget: wattage while a USB-C port is charging or supplying power,
 -- otherwise the connected-device count. A thin view over the snapshot that
 -- service.luau publishes.

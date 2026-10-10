@@ -1,3 +1,4 @@
+--!nonstrict
 -- Shared model: turns `usbeehive --json` output into the snapshot the service
 -- publishes over noctalia.state, and owns every derived decision (which
 -- devices are peripherals, which way power flows) plus the formatting helpers

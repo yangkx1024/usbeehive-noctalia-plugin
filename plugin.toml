@@ -12,7 +12,7 @@ plugin_api = 24 # ui-callback-closures (9), module-require (22), direct-argv (24
 author = "yangkx"
 license = "MIT"
 icon = "usb"
-tags = ["usb", "usb-c", "power", "charging", "hardware"]
+tags = ["bar", "panel", "service", "hardware", "indicator"]
 dependencies = ["usbeehive", "jq"]
 description = "Connected USB devices and USB-C charging wattage, via usbeehive."
 

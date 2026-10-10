@@ -1,3 +1,4 @@
+--!nonstrict
 -- Headless service: owns the single usbeehive watcher for the whole plugin and
 -- publishes a digested snapshot to noctalia.state("snapshot").
 --

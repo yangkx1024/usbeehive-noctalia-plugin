@@ -1,3 +1,4 @@
+--!nonstrict
 -- Device panel: power summary, charging diagnostics, and an expandable list of
 -- connected devices. Re-renders whenever the service publishes a snapshot.
 
